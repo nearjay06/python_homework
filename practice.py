@@ -115,6 +115,26 @@ else:
     print("Correct!")
     print("it took you",count,"tries!")
 
+# No.10
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+c = [item for item in a if b]
+print(c)
 
+# No.11
+x =[ 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41]
+z = int(input('Enter a number: '))
+for y in range(2, z):
+    if(z % y == 1):
+        print ('This is a prime number') 
+    elif (z % 1 == z):
+        print('This is a prime number')
+    else:
+        print('This is not a prime number')
 
-    
+# No.12
+a = [5,10,15,20,25,30,35,40]
+b = (a[0],a[-1])
+print(b)
+
+# No.13
